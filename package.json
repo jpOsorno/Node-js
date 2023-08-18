@@ -1,0 +1,17 @@
+{
+  "name": "athletes-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Pablo Osorno",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.9",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.3",
+    "moongoose": "^0.0.1"
+  }
+}

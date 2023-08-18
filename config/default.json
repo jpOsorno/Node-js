@@ -1,0 +1,10 @@
+{
+    "db-connections": {
+        "mongodb": {
+            "host": "cluster0.vr16pzt.mongodb.net",
+            "user": "ath_new_user_api",
+            "password": "YLJilkGTP90mi3wP",
+            "dbname": "AthletesDB"
+        }
+    }
+}

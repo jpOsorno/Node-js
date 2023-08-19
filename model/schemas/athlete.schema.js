@@ -1,5 +1,5 @@
 /** packages */
-const mongoose = require("mongoose")
+const mongoose = require("mongoose");
 
 
 /** Schema creation */
@@ -26,13 +26,13 @@ const athleteSchema = new mongoose.Schema({
     },
 
     peso: {
-        type: "Float",
+        type: "Number",
         required: true, 
         min: 0, 
     },
 
     estatura: {
-        type: "Float",
+        type: "Number",
         required: true,
         min: 0
     },
@@ -53,7 +53,7 @@ const athleteSchema = new mongoose.Schema({
     }, 
 
     salario: {
-        type: "Float",
+        type: "Number",
         required: true,
     }
 })

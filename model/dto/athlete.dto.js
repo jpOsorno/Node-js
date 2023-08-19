@@ -1,8 +1,10 @@
-/**packages */
+/** packages */
 const mongoose = require("mongoose"); 
+const db = require("../db-connection/mongodb")
 
-/**Using schemas */
+/** Using schemas */
 const schema = require("../schemas/athlete.schema"); 
+db();
 
 schema.statics = {
     create: function (data, cb){
@@ -11,10 +13,6 @@ schema.statics = {
     },
 
     getAll: function (query, cb){
-        this.find(query, cb)
-    },
-
-    getByCode: function (query, cb){
         this.find(query, cb)
     },
 

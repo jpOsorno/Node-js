@@ -6,5 +6,9 @@
             "password": "YLJilkGTP90mi3wP",
             "dbname": "AthletesDB"
         }
-    }
+    },
+    "secretkeys":{
+        "cryptojs": "jsA5t2@tfhD"
+    },
+    "server-port": 2000
 }

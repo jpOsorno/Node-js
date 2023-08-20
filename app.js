@@ -19,7 +19,7 @@ app.use("*", ipFn);
 
 /** Methods */
 app.get("/", (req, res, next) => {
-    res.send("Welcome to academic rest api");
+    res.send("Welcome to athlete rest api");
 });
 
 const athleteRoutes = require("./routes/athlete.routes");

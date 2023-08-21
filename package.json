@@ -14,12 +14,13 @@
     "student",
     "course"
   ],
-  "author": "Juan Pablo Osorno, Juan Pablo Jimenez",
+  "author": "Juan Pablo Osorno, Juan Pablo Jimenez,Juan Mauricio Arias",
   "license": "ISC",
   "dependencies": {
     "config": "^3.3.9",
     "crypto-js": "^4.1.1",
     "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
     "mongodb": "^5.7.0",
     "mongoose": "^5.9.18",
     "mongoose-unique-validator": "^2.0.3",

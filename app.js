@@ -22,9 +22,20 @@ app.get("/", (req, res, next) => {
     res.send("Welcome to athlete rest api");
 });
 
+// User Routes Loading
+
+const userRoutes = require("./routes/user.routes");
+userRoutes(app);
+
+const tkFn = require("./middleware/verifyToken")
+app.use(tkFn)
+
+
 const athleteRoutes = require("./routes/athlete.routes");
 athleteRoutes(app);
+
 
 app.listen(port, () => {
     console.log("Server is running...")
 });
+
